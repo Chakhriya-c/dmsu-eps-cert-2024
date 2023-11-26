@@ -13,11 +13,11 @@ const LoginPage = () => {
         { phoneNumber }
       );
 
+      console.log('Login response:', response);
+
       if (response.data.success) {
         alert('Login successful');
-
-        // Redirect to the certificate page
-        navigate('/certificate');
+        navigate(`/certificate/${phoneNumber}`); // Update the navigation to include the phone number
       } else {
         alert(`Login failed: ${response.data.message}`);
       }
@@ -26,7 +26,7 @@ const LoginPage = () => {
       alert('An error occurred during login');
     }
   };
-
+  
   return (
     <div className="relative h-screen w-screen bg-black flex flex-col items-center justify-center">
       <img
