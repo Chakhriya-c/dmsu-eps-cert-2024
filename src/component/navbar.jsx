@@ -19,13 +19,13 @@ const Navbar = () => {
           />
         </Link>
       </div>
-      <div className="flex items-center justify-end mx-3  sm:text-xl lg:text-3xl">
+      <div className="flex items-center justify-end mx-3  sm:text-2xl lg:text-2xl">
         <div className="relative group">
           <button
             onClick={handleDropdownToggle}
             className="text-white cursor-pointer dropdown lg:dropdown-end max-md:dropdown-bottom mx-5"
           >
-            สมัครเข้าร่วม ᐁ
+            สมัครเข้าร่วม
           </button>
           {dropdownOpen && (
             <div className="absolute dropdown-content z-[256] menu p-2 mt-5 shadow text-white bg-indigo-800 rounded-box w-52">              
