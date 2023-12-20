@@ -61,7 +61,7 @@ const LandingPage = () => {
       </div>
       <div id="e-sport" className='flex sm:flex-row mx-60 mt-72'>
         <div className='sm:order-1'>
-          <p className='text-white text-8xl text-cyan-400 '> ROV Tournament</p>
+          <p className='text-white text-8xl text-cyan-300 '> ROV Tournament</p>
           <p className='text-white text-4xl py-8 '> การแข่งขัน ROV Tournament สำหรับนักเรียนอายุไม่เกิน 18 ปี ร่วมชิงเงินรางวัลมูลค่ารวม 6500 บาท</p>
           <p className='text-white text-4xl py-8'> รวมทีมของคุณ และเข้าร่วมทัวร์นาเมนต์เพื่อเฟ้นหาผู้ชนะ ! </p>
           <button className='mt-8 bg-cyan-300 text-3xl rounded py-4 px-5 rounded-xl'> <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2R6yvezstfGzVq2zjmLn9XdfgwrxtEhYwo09c6xZFBExJyA/viewform">เข้าร่วมการแข่งขัน </a></button>
@@ -87,7 +87,7 @@ const LandingPage = () => {
     </div>
     <div id="coverdance" className='flex sm:flex-row mx-60 mt-72'>
         <div className='sm:order-1'>
-          <p className='text-white text-8xl text-green-500 '> Cover Dance</p>
+          <p className='text-white text-8xl text-green-400 '> Cover Dance</p>
           <p className='text-white text-4xl py-8 '> ร่วมประกวดเต้น Cover Dance สำหรับนักเรียนอายุไม่เกิน 18 ปี ที่มีใจรักในการเต้น รวมทีมและจัด track ของคุณให้พร้อม 
           </p>
           <p className='text-white text-4xl py-8'> ร่วมชิงเงินรางวัลมูลค่ากว่า 6500 บาท ภายในงาน EPD Day 2024 รวบรวมเพื่อนๆ แล้วมาเต้นกันเลย! </p>
@@ -107,6 +107,7 @@ const LandingPage = () => {
         <p className=' text-4xl text-white py-5'> สามารถจัดส่งได้ทั่วประเทศในราคาเพียง 40 บาทเท่านั้น !</p>
         <button className='mt-8 bg-indigo-600 text-3xl rounded-xl py-5 px-10 text-white'> <a href="https://docs.google.com/forms/d/e/1FAIpQLScSAH7v4e25SrwRBIfPZFgYkIh9s3UG2yp2XYHqpN9EVBNU1Q/viewform"> สั่งซื้อที่นี่ </a> </button>
       </div>
+      {/*
       <div id="judge" className='flex flex-col items-center mx-60 mt-72'>
         <p className=' text-7xl text-white '> กรรมการ </p>
         <div className='flex grid'> </div>
@@ -116,6 +117,7 @@ const LandingPage = () => {
         <div className="grid grid-cols-3 gap-4 mx-6 my-8">
         </div>
         </div>
+        */}
         <div id="footer" className='flex flex-row items-center justify-center mt-72'> 
             <img
             className="h-24 px-5"

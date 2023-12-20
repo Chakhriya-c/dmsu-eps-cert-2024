@@ -35,21 +35,22 @@ const Navbar = () => {
               <Link to="https://forms.gle/PTikzvR3bgYGo24Z9" className="block px-4 py-3">
                 Cover Dance
               </Link>
-              <Link to="/certificate" className="block px-4 py-3">
-                Cosplay
+              <Link to="" className="block px-4 py-3">
+                Cosplay (ยังไม่เปิด)
               </Link>
             </div>
           )}
         </div>
-        <Link to="/certificate" className="text-white mx-5">
+        <Link to="https://docs.google.com/forms/d/e/1FAIpQLSe99AgZoeUsaege0ebSLLqXec2kaQUBbigjXsaSWVYbFOdDhA/viewform" className="text-white mx-5">
           สั่งซื้อเสื้อ
         </Link>
-        <Link to="/certificate" className="text-white mx-6">
+        {/* A JSX comment  <Link to="/certificate" className="text-white mx-6">
           กรรมการ
         </Link>
         <Link to="/certificate" className="text-white mx-6">
           เกียรติบัตร
         </Link>
+        */}
         <Link
           to="https://www.facebook.com/profile.php?id=61554407915847"
           className="text-white mx-6"
