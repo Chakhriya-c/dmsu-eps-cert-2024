@@ -2,15 +2,20 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LoginPage from './pages/login';
 import Certificate from './pages/certificate';
+import LandingPage from './pages/landing';
+import Navbar from './component/navbar';
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<LoginPage />} />
-        {/* Include the :phonenumber parameter in the path */}
-        <Route path="/certificate/:phonenumber" element={<Certificate />} />
-      </Routes>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/certificate" element={<LoginPage />} />
+          <Route path="/certificate/:phonenumber" element={<Certificate />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 }

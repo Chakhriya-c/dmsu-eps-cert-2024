@@ -159,23 +159,6 @@ const Certificate = () => {
 
   return (
     <div>
-    <div className="bg-black">
-      <div className="container mx-auto px-6 flex items-center justify-between"> {/* Updated padding */}
-        <div className=" "> 
-          <img className="h-14 " src="/logo.png" alt="Logo" />
-        </div>
-        <nav>
-          <ul className="flex space-x-4">
-            <li className="text-white hover:text-gray-300 cursor-pointer">
-              <a href='https://www.facebook.com/dmsu.studentcommittee'>
-              | DMSU, EPS DAY2024 |
-              </a>
-              </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
       {!loading && !error && participant && (
         <div className="relative bg-white mt-8 md:mt-20 flex flex-col items-center justify-center">
           <div
@@ -183,7 +166,7 @@ const Certificate = () => {
   ref={(ref) => (window.certificateContainer = ref)}
   className={`h-2/5 w-2/5 flex flex-col items-center justify-center md:w-1/2 ${
     window.innerWidth < 640 ? 'w-1/2' : 'w-2/5'
-  } relative`} // Add relative positioning
+  } relative`} 
 >
             <div className="relative">
               <img

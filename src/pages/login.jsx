@@ -57,11 +57,6 @@ const LoginPage = () => {
 
   return (
     <div className="relative h-screen w-screen bg-black flex flex-col items-center justify-center">
-      <img
-        className="w-20 h-20 absolute top-8 right-8"
-        src="/dmsulogo_2.png"
-        alt="Logo"
-      />
       <img className="h-1/3" src="/logo.jpg" alt="Logo" />
       <p className="text-white font-bold text-lg mb-1">
         Certificate Redeem for EPS Day 2024

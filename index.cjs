@@ -115,10 +115,8 @@ app.get('/api/participants/:phonenumber', async (req, res) => {
       const firstParticipant = participants[0];
       console.log('Participant data:', firstParticipant);
 
-      // Set the Content-Type header to 'application/json' before sending the response
       res.setHeader('Content-Type', 'application/json');
 
-      // Send the participant data as JSON
       return res.json({ success: true, participant: firstParticipant });
     } else {
       return res.json({ success: false, message: 'Participant not found' });
