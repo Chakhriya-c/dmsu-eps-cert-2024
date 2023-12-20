@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import anime from 'animejs';
+
 
 const LandingPage = () => {
   useEffect(() => {
