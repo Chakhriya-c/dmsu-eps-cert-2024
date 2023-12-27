@@ -122,10 +122,16 @@ const LandingPage = () => {
 
         </div>
         <div className='flex flex-col lg:mx-32 xl:mx-60 mt-72 sm:mx-20 items-center justify-center'>
-        <p className='text-5xl font-bold lg:text-8xl sm:text-7xl text-purple-400 py-12 '>  EPD T-shirt </p>
+        <p className='text-5xl font-bold lg:text-8xl sm:text-7xl text-purple-400 py-12'>  EPD T-shirt </p>
 
-              <iframe className='mx-12' src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0ZNvnNQJyRhQ1EmHr5WVhPYgFBReUAJJvc7yUjGC8PAd9MTSq8Gg3HmiVJgrMbM6kl%26id%3D61554407915847&show_text=false&width=500" width="500" height="648" allowfullscreen="true" ></iframe>
-        </div>
+<iframe
+    className='mx-12 w-full'
+    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0ZNvnNQJyRhQ1EmHr5WVhPYgFBReUAJJvc7yUjGC8PAd9MTSq8Gg3HmiVJgrMbM6kl%26id%3D61554407915847&show_text=false"
+    width="100%"
+    height="520"
+    style={{ border: 'none', overflow: 'hidden' }}
+    allowFullScreen={true}
+  ></iframe>        </div>
           <div id="footer" className='flex items-center justify-center mt-72'> 
             <img
             className="h-24 px-5"
