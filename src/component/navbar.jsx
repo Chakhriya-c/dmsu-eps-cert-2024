@@ -10,10 +10,10 @@ const Navbar = () => {
 
   return (
     <nav className="bg-black flex p-3 justify-between items-center flex-wrap font-noto-sans-thai">
-      <div className="flex items-center justify-start">
+      <div className="flex justify-center sm:justify-start lg:sm:justify-start xl:sm:justify-start ">
         <Link to="/" className="">
           <img
-            className="h-24 px-14"
+            className="h-12 px-14 sm:h-24 lg:h-24 md:h-24 xl:h-24 "
             src="https://ik.imagekit.io/j1g9rsjgs/dmsu-eps-2024/logo.png?updatedAt=1703000678958"
             alt="Logo"
           />
