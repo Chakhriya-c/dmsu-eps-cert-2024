@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -10,53 +9,27 @@ const Navbar = () => {
 
   return (
     <nav className="bg-black flex p-3 justify-between items-center flex-wrap font-noto-sans-thai">
-      <div className="flex justify-center sm:justify-start lg:sm:justify-start xl:sm:justify-start ">
-        <Link to="/" className="">
+      <div className="flex justify-center sm:justify-start lg:sm:justify-start xl:sm:justify-start">
+        <a href="/">
           <img
-            className="h-12 px-14 sm:h-24 lg:h-24 md:h-24 xl:h-24 "
+            className="h-12 px-14 sm:h-24 lg:h-24 md:h-24 xl:h-24"
             src="https://ik.imagekit.io/j1g9rsjgs/dmsu-eps-2024/logo.png?updatedAt=1703000678958"
             alt="Logo"
           />
-        </Link>
+        </a>
       </div>
       <div className="flex items-center justify-end mx-3  sm:text-2xl lg:text-2xl">
         <div className="relative group">
-          <button
-            onClick={handleDropdownToggle}
-            className="text-white cursor-pointer dropdown lg:dropdown-end max-md:dropdown-bottom mx-5"
-          >
-            สมัครเข้าร่วม
-          </button>
-          {dropdownOpen && (
-            <div className="absolute dropdown-content z-[256] menu p-2 mt-5 shadow text-white bg-indigo-800 rounded-box w-52">              
-              <Link to="https://forms.gle/LmeEczTZeezFSL587" className="block px-4 py-3">
-                E-Sport
-              </Link>
-              <Link to="https://forms.gle/PTikzvR3bgYGo24Z9" className="block px-4 py-3">
-                Cover Dance
-              </Link>
-              <Link to="" className="block px-4 py-3">
-                Cosplay (ยังไม่เปิด)
-              </Link>
-            </div>
-          )}
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe99AgZoeUsaege0ebSLLqXec2kaQUBbigjXsaSWVYbFOdDhA/viewform" className="text-white mx-5">
+          สมัครเลย
+        </a>
         </div>
-        <Link to="https://docs.google.com/forms/d/e/1FAIpQLSe99AgZoeUsaege0ebSLLqXec2kaQUBbigjXsaSWVYbFOdDhA/viewform" className="text-white mx-5">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe99AgZoeUsaege0ebSLLqXec2kaQUBbigjXsaSWVYbFOdDhA/viewform" className="text-white mx-5">
           สั่งซื้อเสื้อ
-        </Link>
-        {/* A JSX comment  <Link to="/certificate" className="text-white mx-6">
-          กรรมการ
-        </Link>
-        <Link to="/certificate" className="text-white mx-6">
-          เกียรติบัตร
-        </Link>
-        */}
-        <Link
-          to="https://www.facebook.com/profile.php?id=61554407915847"
-          className="text-white mx-6"
-        >
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61554407915847" className="text-white mx-6">
           ติดต่อเรา
-        </Link>
+        </a>
       </div>
     </nav>
   );

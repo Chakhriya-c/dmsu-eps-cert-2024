@@ -87,7 +87,7 @@ const LandingPage = () => {
               <p className=' text-6xl  lg:text-8xl sm:text-7xl text-yellow-400'> Cosplay </p>
               <p className='text-white sm:text-4xl lg:text-4xl py-8 text-2xl'> พบปะเพื่อนๆ ที่ชื่นชอบการ cosplay และเข้าร่วมประกวด EPD TikTok Challenge! </p>
               <p className='text-white sm:text-4xl lg:text-4xl py-8 text-2xl'> พบกันได้ภายในงาน EPD Day 2024 เตรียมชุด และพร้อบของคุณให้พร้อม </p>
-              <button className='mt-8 bg-yellow-500 text-3xl rounded-xl py-4 px-5 '> <a href="https://docs.google.com/forms/d/e/1FAIpQLScSAH7v4e25SrwRBIfPZFgYkIh9s3UG2yp2XYHqpN9EVBNU1Q/viewform"> เข้าร่วมการประกวด </a> </button>
+              <button className='mt-8 bg-yellow-500 text-3xl rounded-xl py-4 px-5 '> <a href="https://www.facebook.com/permalink.php?story_fbid=pfbid0ty3JFXBKRF6S9TVFhfWLX8udxcq1gS3A5WaLGqZ29HvMs3ouj6xfAJ8jAyBF9h55l&id=61554407915847"> รายละเอียด </a> </button>
             </div>
             
           </div>
