@@ -85,8 +85,8 @@ const LandingPage = () => {
                 className='flex lg:mx-32 xl:mx-60 mt-72 sm:mx-20'>         
               <div className=''>
               <p className=' text-6xl  lg:text-8xl sm:text-7xl text-yellow-400'> Cosplay </p>
-              <p className='text-white sm:text-4xl lg:text-4xl py-8 text-2xl'> ร่วมประกวดเต้น Cover Dance สำหรับนักเรียนอายุไม่เกิน 18 ปี ที่มีใจรักในการเต้น รวมทีมและจัด track ของคุณให้พร้อม </p>
-              <p className='text-white sm:text-4xl lg:text-4xl py-8 text-2xl'> ร่วมชิงเงินรางวัลมูลค่ากว่า 6500 บาท ภายในงาน EPD Day 2024 รวบรวมเพื่อนๆ แล้วมาเต้นกันเลย! </p>
+              <p className='text-white sm:text-4xl lg:text-4xl py-8 text-2xl'> พบปะเพื่อนๆ ที่ชื่นชอบการ cosplay และเข้าร่วมประกวด EPD TikTok Challenge! </p>
+              <p className='text-white sm:text-4xl lg:text-4xl py-8 text-2xl'> พบกันได้ภายในงาน EPD Day 2024 เตรียมชุด และพร้อบของคุณให้พร้อม </p>
               <button className='mt-8 bg-yellow-500 text-3xl rounded-xl py-4 px-5 '> <a href="https://docs.google.com/forms/d/e/1FAIpQLScSAH7v4e25SrwRBIfPZFgYkIh9s3UG2yp2XYHqpN9EVBNU1Q/viewform"> เข้าร่วมการประกวด </a> </button>
             </div>
             
