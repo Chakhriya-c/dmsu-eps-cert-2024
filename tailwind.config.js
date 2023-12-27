@@ -6,6 +6,7 @@ export default {
     extend: {
       fontFamily: {
         'noto-sans-thai': ['Noto Sans Thai', 'sans-serif'],
+        'kanit': ['Kanit', 'sans-serif']
       },
       animation: {
         typewriter: "typewriter 2s steps(11) forwards"
@@ -19,6 +20,8 @@ export default {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 }
 

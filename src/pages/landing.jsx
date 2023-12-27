@@ -45,7 +45,7 @@ const LandingPage = () => {
   }, []);
 
   return (
-    <div className="bg-black min-h-screen font-noto-sans-thai">
+    <div className="bg-black min-h-screen font-kanit">
       <div className='sm:p-32 lg:p-8 xl:p-50'>
       <h1 className='text-2xl flex justify-center py-28 lg:py-0 mb-24 xl:mx-9 xl:text-5xl lg:text-4xl sm:text-4xl text-white'> ถ้าคุณเป็นคนที่ชอบ... 👇 </h1>
       </div>
