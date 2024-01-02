@@ -19,11 +19,9 @@ const Navbar = () => {
         </a>
       </div>
       <div className="flex items-center justify-end mx-3  sm:text-2xl lg:text-2xl">
-        <div className="relative group">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe99AgZoeUsaege0ebSLLqXec2kaQUBbigjXsaSWVYbFOdDhA/viewform" className="text-white mx-5">
-          สั่งซื้อเสื้อ
+        <a href="https://linktr.ee/epd_dmsu" className="text-white mx-5">
+          สมัครเลย
         </a>
-        </div>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSe99AgZoeUsaege0ebSLLqXec2kaQUBbigjXsaSWVYbFOdDhA/viewform" className="text-white mx-5">
           สั่งซื้อเสื้อ
         </a>
