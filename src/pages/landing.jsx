@@ -59,7 +59,7 @@ const LandingPage = () => {
       <div id="information" className='flex flex-col py-12 items-center  justify-center sm:mx-32 sm:mt-48 sm:text-3xl lg:mt-52 xl:mt-64 lg:mx-40 xl:mx-60 lg:text-3xl xl:text-4xl '>
         <p className='text-white py-5 '> 📅 วันที่ 10 กุมภาพันธ์ 2567 </p>
         <p className='text-white py-5 '> 📍  ชั้น 1 เสริมไทยคอมเพล็กซ์</p>
-        <button className='text-xl sm:text-3xl bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl py-4 px-5'> สมัครเลย 🚀 </button>
+        <button className='text-xl sm:text-3xl bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl py-4 px-5'> <a href='https://linktr.ee/epd_dmsu'> สมัครเลย 🚀 </a></button>
       </div>
     <div className='mx-12'>
       <div id="rov" style={{
