@@ -56,10 +56,10 @@ const LandingPage = () => {
         ></h1>
       </div>
 
-      <div id="information" className='flex flex-col py-12 items-center  justify-center sm:mx-32 sm:mt-48 sm:text-3xl lg:mt-52 xl:mt-64 lg:mx-40 xl:mx-60 lg:text-3xl xl:text-4xl '>
+      <div id="information" className='flex flex-col py-12 items-center  justify-center sm:mx-32 sm:mt-48 sm:text-2xl lg:mt-52 xl:mt-64 lg:mx-40 xl:mx-60 lg:text-2xl xl:text-3xl '>
         <p className='text-white py-5 '> 📅 วันที่ 10 กุมภาพันธ์ 2567 </p>
         <p className='text-white py-5 '> 📍  ชั้น 1 เสริมไทยคอมเพล็กซ์</p>
-        <button className='text-xl sm:text-3xl bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl py-4 px-5'> <a href='https://linktr.ee/epd_dmsu'> สมัครเลย 🚀 </a></button>
+        <button className='text-xl mt-2 sm:text-3xl bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl py-4 px-5'> <a href='https://linktr.ee/epd_dmsu'> สมัครเลย 🚀 </a></button>
       </div>
     <div className='mx-12'>
       <div id="rov" style={{
@@ -131,23 +131,29 @@ const LandingPage = () => {
     height="520"
     style={{ border: 'none', overflow: 'hidden' }}
     allowFullScreen={true}
-  ></iframe>        </div>
+  ></iframe>        
+  </div>
+  <div className='flex flex-col items-center justify-center mt-24 text-white'>
+      <p> เนื้อหาใหม่ๆ จะมาภายในเร็วๆ นี้ รออัพเดทเลย!</p>
+      <p> More content COMING SOON!</p>
+      <p> 👾 💃 💄 </p>
+
+    </div>
           <div id="footer" className='flex items-center justify-center mt-72'> 
             <img
-            className="h-24 px-5"
+            className="h-16 px-5"
             src="https://ik.imagekit.io/j1g9rsjgs/dmsu-eps-2024/logo.png?updatedAt=1703000678958"
             alt="Logo"
           />
           <img
-            className="h-24 px-5"
+            className="h-16 px-5"
             src="https://ik.imagekit.io/j1g9rsjgs/dmsu-eps-2024/dmsulogo.png?updatedAt=1703017764715"
             alt="Logo"
           />
-            
       </div>
         <div id="footer-text" className='flex flex-col justify-center items-center'>
-                <p className='text-sm lg:text-xl sm:text-xl text-white font-bold py-3'> EPD Day 2024 </p>
-                <p className='text-sm sm:text-xl lg:text-xl text-white py-3'> Mahasarakham University Demonstration School</p>
+                <p className='text-sm lg:text-l sm:text-l text-white font-bold py-3'> EPD Day 2024 </p>
+                <p className='text-sm sm:text-l lg:text-l text-white py-3'> Mahasarakham University Demonstration School</p>
         </div>
 
       </div>
