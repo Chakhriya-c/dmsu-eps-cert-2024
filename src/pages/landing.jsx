@@ -105,6 +105,7 @@ const LandingPage = () => {
               <p className='text-6xl lg:text-8xl sm:text-7xl text-green-400 '> Cover Dance</p>
               <p className='text-white sm:text-4xl lg:text-4xl py-8 text-2xl'> ร่วมประกวดเต้น Cover Dance สำหรับนักเรียนอายุไม่เกิน 18 ปี ที่มีใจรักในการเต้น รวมทีมและจัด track ของคุณให้พร้อม </p>
               <p className='text-white sm:text-4xl lg:text-4xl py-8 text-2xl'> ร่วมชิงเงินรางวัลมูลค่ากว่า 6500 บาท ภายในงาน EPD Day 2024 รวบรวมเพื่อนๆ แล้วมาเต้นกันเลย! </p>
+              <img className="h-24" src='https://ik.imagekit.io/j1g9rsjgs/dmsu-eps-2024/toothless-dancing-toothless.gif?updatedAt=1704256980180'></img>
               <button className='mt-8 bg-green-500 text-3xl rounded-xl py-4 px-5 '> <a href="https://docs.google.com/forms/d/e/1FAIpQLScSAH7v4e25SrwRBIfPZFgYkIh9s3UG2yp2XYHqpN9EVBNU1Q/viewform"> เข้าร่วมการประกวด </a> </button>
             </div>
           </div>
