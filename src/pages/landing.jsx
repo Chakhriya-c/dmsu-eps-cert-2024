@@ -96,7 +96,7 @@ const LandingPage = () => {
           </div>
 
     <div id="coverdance" style={{
-                backgroundImage: window.innerWidth <= 850 ? 'url(https://ik.imagekit.io/j1g9rsjgs/dmsu-eps-2024/toothless-dancing-toothless.gif?updatedAt=1704256980180)' : 'none',
+                backgroundImage: window.innerWidth <= 850 ? 'url(https://ik.imagekit.io/j1g9rsjgs/dmsu-eps-2024/image.png?updatedAt=1703057916799)' : 'none',
                 backgroundSize: 'cover', 
                 backgroundRepeat: 'no-repeat', 
                 backgroundPosition: 'center', 
@@ -107,6 +107,9 @@ const LandingPage = () => {
               <p className='text-white sm:text-4xl lg:text-4xl py-8 text-2xl'> ร่วมชิงเงินรางวัลมูลค่ากว่า 6500 บาท ภายในงาน EPD Day 2024 รวบรวมเพื่อนๆ แล้วมาเต้นกันเลย! </p>
               <button className='mt-8 bg-green-500 text-3xl rounded-xl py-4 px-5 '> <a href="https://docs.google.com/forms/d/e/1FAIpQLScSAH7v4e25SrwRBIfPZFgYkIh9s3UG2yp2XYHqpN9EVBNU1Q/viewform"> เข้าร่วมการประกวด </a> </button>
             </div>
+          </div>
+          <div className='flex lg:mx-32 xl:mx-60 mt-12 sm:mx-20'>
+          <img className="h-24" src='https://ik.imagekit.io/j1g9rsjgs/dmsu-eps-2024/toothless-dancing-toothless.gif?updatedAt=1704256980180'></img>
           </div>
 
         
