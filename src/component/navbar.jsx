@@ -5,7 +5,7 @@ const Navbar = () => {
 
 
   return (
-    <nav className="bg-black flex p-3 justify-between items-center flex-wrap font-noto-sans-thai z-50">
+    <nav className="bg-black flex p-3 justify-between items-center font-noto-sans-thai z-50">
       <div className="flex justify-center sm:justify-start lg:sm:justify-start xl:sm:justify-start">
         <a href="/">
           <img
