@@ -59,7 +59,8 @@ const LandingPage = () => {
       <div id="information" className='flex flex-col py-12 items-center  justify-center sm:mx-32 sm:mt-48 sm:text-2xl lg:mt-52 xl:mt-64 lg:mx-40 xl:mx-60 lg:text-2xl xl:text-3xl '>
         <p className='text-white py-5 '> 📅 วันที่ 10 กุมภาพันธ์ 2567 </p>
         <p className='text-white py-5 '> 📍  ชั้น 1 เสริมไทยคอมเพล็กซ์</p>
-        <button className='mt-8 bg-green-500 text-3xl rounded-xl py-4 px-5 '> <a href="https://docs.google.com/forms/d/e/1FAIpQLScSAH7v4e25SrwRBIfPZFgYkIh9s3UG2yp2XYHqpN9EVBNU1Q/viewform"> เข้าร่วมการประกวด </a> </button>
+      </div>
+      <div id="main_button" className='flex flex-col items-center justify-center sm:mx-10 sm:text-2xl lg:mt-20 lg:mx-40 xl:mx-60 lg:text-2xl xl:text-3xl '>
         <button href="https://linktr.ee/epd_dmsu" className='text-xl mt-2 sm:text-3xl bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl py-4 px-5'> <a href='https://linktr.ee/epd_dmsu'> สมัครเลย 🚀 </a></button>
       </div>
     <div className='mx-12'>
