@@ -1,14 +1,11 @@
 import React, { useState } from 'react';
 
 const Navbar = () => {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  const handleDropdownToggle = () => {
-    setDropdownOpen(!dropdownOpen);
-  };
+
 
   return (
-    <nav className="bg-black flex p-3 justify-between items-center flex-wrap font-noto-sans-thai">
+    <nav className="bg-black flex p-3 justify-between items-center flex-wrap font-noto-sans-thai z-50">
       <div className="flex justify-center sm:justify-start lg:sm:justify-start xl:sm:justify-start">
         <a href="/">
           <img
